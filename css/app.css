@@ -2,4 +2,37 @@
   margin: 20px 20px 20px 20px;
 }
 
+.content-section {
+  margin-left: 100px;
+}
+
+.portfolio-wrapper {
+  margin-top: 30px;
+}
+
+.portfolio-wrapper--image__pic {
+  width: 300px;
+}
+
+.portfolio-wrapper--description {
+  padding-top: 30px;
+}
+
+.portfolio-wrapper--description__txt p {
+  font-size: 28px;
+}
+.portfolio-wrapper--description__txt label {
+  color: blue;
+}
+
+.portfolio-wrapper--description__btn {
+  background-color: grey;
+  border-radius: 0px;
+  width: 250px;
+  height: 50px;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+}
+
 /*# sourceMappingURL=app.css.map */

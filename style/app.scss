@@ -3,3 +3,38 @@
 .header-title {
     @include header-title__h1--margin($headerTitleMarginTop, $headerTitleMarginTop, $headerTitleMarginTop, $headerTitleMarginTop);
 }
+
+.content-section {
+    margin-left: $contentSectionMarginLeft;
+}
+
+.portfolio-wrapper {
+    margin-top: $portfolioWrapperMarginTop;
+}
+
+.portfolio-wrapper--image__pic {
+    width: $portfolioImageWidth;
+}
+
+.portfolio-wrapper--description {
+    padding-top: $portfolioDescriptionPaddingTop;
+}
+
+.portfolio-wrapper--description__txt {
+    p {
+        @include portfolioDescriptionFont($portfolioDescriptionFontsize);
+    }
+    label {
+        color: $descriptionLabelColor;
+    }
+}
+
+.portfolio-wrapper--description__btn {
+    background-color: $discoverMoreBtnBackColor;
+    border-radius: 0px;
+    width: $discoverMoreBtnWidth;
+    height: $discoverMoreBtnHeight;
+    color: $discoverMoreBtnFontColor;
+    font-weight: $discoverMoreBtnFontWeight;
+    font-size: $discoverMoreBtnFontSize;
+}
