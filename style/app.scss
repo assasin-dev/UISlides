@@ -1,0 +1,5 @@
+@import "variable";
+@import "mixin";
+.header-title {
+    @include header-title__h1--margin($headerTitleMarginTop, $headerTitleMarginTop, $headerTitleMarginTop, $headerTitleMarginTop);
+}
